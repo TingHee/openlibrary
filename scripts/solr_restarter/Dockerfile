@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM docker:27.2
 
 # Install Node
 RUN apk add --update nodejs npm
